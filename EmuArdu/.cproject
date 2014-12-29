@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.1635879947">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.1635879947" moduleId="org.eclipse.cdt.core.settings" name="uno">
+				<macros>
+					<stringMacro name="variant" type="VALUE_TEXT" value="standard"/>
+				</macros>
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/EmuArdu"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/EmuArdu/Release"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/EmuArdu/uno"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="EmuArdu" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib" cleanCommand="rm -rf" description="standard" id="cdt.managedbuild.config.gnu.exe.release.1635879947" name="uno" parent="cdt.managedbuild.config.gnu.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.1635879947." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1733330448" name="Linux GCC" nonInternalBuilderId="cdt.managedbuild.target.gnu.builder.exe.release" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.601390832" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/EmuArdu}/build/${ConfigName}" id="cdt.managedbuild.target.gnu.builder.exe.release.517128927" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1424562131" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.957789105" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.1797362487" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.exe.release.option.debugging.level.219504715" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.840965439" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/variants/${variant}}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.pic.2084019923" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.204335671" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ARDUINO_ARCH_AVR"/>
+									<listOptionValue builtIn="false" value="ARDUINO_AVR_UNO"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.605711051" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1246727248" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.249309051" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.exe.release.option.debugging.level.1979077055" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1813959150" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/variants/${variant}}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.pic.990277694" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.852554160" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ARDUINO_ARCH_AVR"/>
+									<listOptionValue builtIn="false" value="ARDUINO_AVR_UNO"/>
+									<listOptionValue builtIn="false" value="ARDUINO=157"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.295302226" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.203740781" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
+								<option defaultValue="true" id="gnu.c.link.option.shared.592664874" name="Shared (-shared)" superClass="gnu.c.link.option.shared" valueType="boolean"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1389688938" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+								<option defaultValue="true" id="gnu.cpp.link.option.shared.2032600570" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.libs.1606564229" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="glut"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="GLU"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gd"/>
+								</option>
+								<option id="gnu.cpp.link.option.paths.1863636046" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1547450105" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.580736509" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+								<option id="gnu.both.asm.option.include.paths.1648266417" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/variants/${variant}}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1773794803" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="hardware/piif/emuardu"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087" moduleId="org.eclipse.cdt.core.settings" name="micro">
+				<macros>
+					<stringMacro name="variant" type="VALUE_TEXT" value="micro"/>
+				</macros>
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/EmuArdu"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/EmuArdu/micro"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="EmuArdu" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib" cleanCommand="rm -rf" description="micro" id="cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087" name="micro" parent="cdt.managedbuild.config.gnu.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1297486063" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.2111385625" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/EmuArdu}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.703697826" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="uno"/>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="micro"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1072320296" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.811133553" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.470682962" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.exe.release.option.debugging.level.147300047" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.2062079500" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/variants/${variant}}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.pic.2076523935" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.955896216" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ARDUINO_ARCH_AVR"/>
+									<listOptionValue builtIn="false" value="ARDUINO_AVR_MICRO"/>
+									<listOptionValue builtIn="false" value="ARDUINO=157"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.280600746" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1557921810" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.762637380" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.exe.release.option.debugging.level.249515668" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1132238930" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/variants/${variant}}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.pic.43105452" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1689394639" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ARDUINO_ARCH_AVR"/>
+									<listOptionValue builtIn="false" value="ARDUINO_AVR_MICRO"/>
+									<listOptionValue builtIn="false" value="ARDUINO=157"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.612026150" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.2005161320" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
+								<option defaultValue="true" id="gnu.c.link.option.shared.1642037178" name="Shared (-shared)" superClass="gnu.c.link.option.shared" valueType="boolean"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1762658090" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+								<option defaultValue="true" id="gnu.cpp.link.option.shared.402440456" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.libs.1011312279" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="glut"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="GLU"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gd"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.2123796009" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.242642857" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+								<option id="gnu.both.asm.option.include.paths.1147990847" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/cores/arduino}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/EmuArdu/hardware/piif/emuardu/variants/${variant}}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.759085845" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="hardware/piif/emuardu"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="EmuArdu.cdt.managedbuild.target.gnu.exe.1272224399" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/EmuArdu"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/EmuArdu"/>
+		</configuration>
+		<configuration configurationName="uno">
+			<resource resourceType="PROJECT" workspacePath="/EmuArdu"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.866553792;cdt.managedbuild.config.gnu.exe.debug.866553792.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1651712174;cdt.managedbuild.tool.gnu.cpp.compiler.input.983902793">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.866553792;cdt.managedbuild.config.gnu.exe.debug.866553792.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1581043609;cdt.managedbuild.tool.gnu.c.compiler.input.374914377">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087;cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1557921810;cdt.managedbuild.tool.gnu.c.compiler.input.612026150">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1635879947;cdt.managedbuild.config.gnu.exe.release.1635879947.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1246727248;cdt.managedbuild.tool.gnu.c.compiler.input.295302226">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1635879947;cdt.managedbuild.config.gnu.exe.release.1635879947.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.957789105;cdt.managedbuild.tool.gnu.cpp.compiler.input.605711051">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087;cdt.managedbuild.config.gnu.exe.release.1635879947.1797674087.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.811133553;cdt.managedbuild.tool.gnu.cpp.compiler.input.280600746">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

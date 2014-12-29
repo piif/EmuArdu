@@ -1,0 +1,8 @@
+# contains definitions for external programmers
+# (typically used to burn bootloaders or sketches on a blank CPU/board)
+
+emuardu.name=EmuArdu Launcher
+emuardu.protocol=fake
+emuardu.program.tool=emulauncher
+emuardu.program.extra_params=
+
