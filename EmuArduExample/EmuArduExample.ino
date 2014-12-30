@@ -1,5 +1,10 @@
 #include <Arduino.h>
 
+#ifndef ARDUINO_BOARD
+#define STR(s) #s
+#define ARDUINO_BOARD STR(USB_PRODUCT)
+#endif
+
 void setup() {
 	Serial.begin(9600);
 	Serial.println("!!! Hello " ARDUINO_BOARD " World !!!");
@@ -13,3 +18,4 @@ void loop() {
 	digitalWrite(13, light);
 	light = !light;
 }
+
