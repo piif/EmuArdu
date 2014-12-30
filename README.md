@@ -8,8 +8,10 @@ EmuArdu
 =======
 
  This project consists in a "hardware" directory that can be copied or linked into
-Arduino IDE project directory to decalre a new set of platforms which are similar
-to arduino ones, but emulated on your computer.
+Arduino IDE project directory to declare a new set of platforms which are similar
+to Arduino ones, but emulated on your computer.
+
+<img src="https://github.com/piif/EmuArdu/blob/master/snapshots/IDE_and_Emulator.png"/>
 
  See readme inside EmuArdu directory for more informations
 
